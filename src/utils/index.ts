@@ -1,1 +1,1 @@
-export * from "./parseClassNames";
+export * from "./parse";
