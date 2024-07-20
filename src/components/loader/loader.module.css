@@ -1,0 +1,20 @@
+.wrapper {
+  width: 1em;
+  height: 1em;
+
+  display: inline-block;
+
+  border: 0.2em solid currentColor;
+  border-right: 0.2em solid transparent;
+  border-radius: 50%;
+  background-color: transparent;
+  line-height: 1;
+
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
