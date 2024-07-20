@@ -1,0 +1,55 @@
+.button {
+  width: 100%;
+
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--secondary-color-00);
+
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.icon {
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+
+  padding: 0.5rem;
+  border-radius: 4rem;
+}
+
+a.button {
+  display: block;
+
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.color--secondary {
+  background-color: var(--primary-color-60);
+  color: var(--secondary-color-00);
+}
+
+.color--transparent {
+  background-color: transparent;
+  color: inherit;
+  border-radius: 0;
+}
+
+.color--success {
+  background-color: var(--success-color-60);
+  color: var(--success-color-00);
+}
+
+.color--danger {
+  background-color: var(--danger-color-60);
+  color: var(--danger-color-00);
+}
