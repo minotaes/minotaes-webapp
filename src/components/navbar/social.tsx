@@ -7,6 +7,8 @@ import {
   SideMenu,
 } from "@/icons";
 
+import styles from "./social.module.css";
+
 const defaultIconStyle = {
   color: "transparent" as const,
   size: "small" as const,
@@ -15,7 +17,7 @@ const defaultIconStyle = {
 
 export function Social() {
   return (
-    <div>
+    <div className={styles.social}>
       <SpotifyIcon {...defaultIconStyle} />
       <AppleMusicIcon {...defaultIconStyle} />
       <InstagramIcon {...defaultIconStyle} />
