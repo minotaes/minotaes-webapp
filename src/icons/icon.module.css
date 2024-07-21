@@ -33,7 +33,7 @@
 }
 
 .color-primary {
-  color: red;
+  color: rgb(255, 255, 255);
 }
 
 .color-secondary {
@@ -46,4 +46,28 @@
 
 .color-quaternary {
   color: var(--quaternary-color);
+}
+
+.color-transparent {
+  color: transparent;
+}
+
+.fill-primary {
+  fill: rgb(255, 255, 255) !important;
+}
+
+.fill-secondary {
+  fill: var(--secondary-color);
+}
+
+.fill-tertiary {
+  fill: var(--tertiary-color);
+}
+
+.fill-quaternary {
+  fill: var(--quaternary-color);
+}
+
+.fill-transparent {
+  fill: transparent;
 }
