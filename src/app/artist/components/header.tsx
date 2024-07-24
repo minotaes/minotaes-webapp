@@ -12,7 +12,7 @@ const Header = () => {
     <header>
       <div className={styles.image}>
         <img
-          src="https://i.scdn.co/image/ab6761610000e5ebdb1e889153a9a882dfd4a18f"
+          src="https://www.neo2.com/wp-content/uploads/2021/10/Bratty-entrevista-bedroom-pop-mexico-tdbn-foto-3.jpg"
           alt="bratty"
         />
       </div>
