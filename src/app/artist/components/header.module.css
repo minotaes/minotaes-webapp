@@ -1,3 +1,8 @@
+.header {
+  position: relative;
+  padding: 2rem;
+}
+
 .image {
   position: absolute;
   top: 0;

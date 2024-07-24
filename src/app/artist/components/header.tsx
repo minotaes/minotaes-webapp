@@ -9,7 +9,7 @@ const defaultTextStyle = {
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <div className={styles.image}>
         <img
           src="https://www.neo2.com/wp-content/uploads/2021/10/Bratty-entrevista-bedroom-pop-mexico-tdbn-foto-3.jpg"
