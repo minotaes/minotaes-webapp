@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./components/header";
+import { Header } from "./components";
 
 import styles from "./artist.module.css";
 import { Subtitle } from "@/components";
@@ -15,6 +15,7 @@ const Artist = () => {
       <Header />
       <div className={styles.container}>
         <Subtitle {...defaultSubtitleStyle}>Eventos</Subtitle>
+
         <Subtitle {...defaultSubtitleStyle}>Música</Subtitle>
         <Subtitle {...defaultSubtitleStyle}>
           Recomendaciones del artista
