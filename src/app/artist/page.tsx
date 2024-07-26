@@ -6,7 +6,7 @@ import { Subtitle } from "@/components";
 
 const defaultSubtitleStyle = {
   size: "small" as const,
-  color: "primary" as const, // Puede cambiar
+  color: "primary" as const,
 };
 
 const Artist = () => {
