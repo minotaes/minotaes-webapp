@@ -33,17 +33,45 @@
 }
 
 .color-primary {
-  color: red;
+  color: var(--primary-color-00);
 }
 
 .color-secondary {
-  color: var(--secondary-color);
+  color: var(--secondary-color-00);
 }
 
 .color-tertiary {
-  color: var(--tertiary-color);
+  color: var(--tertiary-color-00);
 }
 
 .color-quaternary {
-  color: var(--quaternary-color);
+  color: var(--quaternary-color-00);
+}
+
+.color-transparent {
+  color: transparent;
+}
+
+.fill-inherit {
+  fill: inherit;
+}
+
+.fill-primary {
+  fill: var(--primary-color-00);
+}
+
+.fill-secondary {
+  fill: var(--secondary-color-00);
+}
+
+.fill-tertiary {
+  fill: var(--tertiary-color-00);
+}
+
+.fill-quaternary {
+  fill: var(--quaternary-color-00);
+}
+
+.fill-transparent {
+  fill: transparent;
 }

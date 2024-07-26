@@ -9,7 +9,7 @@ import { type URL } from "url";
 export declare interface TextStyles {
   color?: "primary" | "secondary";
   children: ReactNode;
-  size?: "small" | "medium" | "large" | "inherit";
+  size?: "small" | "medium" | "large" | "giant" | "inherit";
   weight?: "light" | "normal" | "bold";
   align?: "left" | "center" | "right";
   style?: CSSProperties;
