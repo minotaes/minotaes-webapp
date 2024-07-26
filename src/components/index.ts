@@ -5,6 +5,8 @@ export * from "./button/normal";
 
 export * from "./loader/spinner";
 
+export * from "./navbar/social";
+
 export * from "./texts/anchor";
 export * from "./texts/main-title";
 export * from "./texts/paragraph";
