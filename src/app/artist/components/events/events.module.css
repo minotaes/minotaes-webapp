@@ -1,0 +1,26 @@
+.container {
+  padding-block: 12px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+  gap: 6px;
+}
+
+.square {
+  background-color: aliceblue;
+  border-radius: 5px;
+  height: 85px;
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
