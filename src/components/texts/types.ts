@@ -7,7 +7,7 @@ import {
 import { type URL } from "url";
 
 export declare interface TextStyles {
-  color?: "primary" | "secondary";
+  color?: "primary" | "secondary" | "tertiary";
   children: ReactNode;
   size?: "xsmall" | "small" | "medium" | "large" | "giant" | "inherit";
   weight?: "light" | "normal" | "bold";
