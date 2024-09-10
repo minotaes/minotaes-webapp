@@ -28,7 +28,7 @@
   --primary-text-color: var(--primary-color-00);
   --secondary-text-color: var(--secondary-color-00);
 
-  --input-bg: var(--primary-color-60);
+  --input-color-bg: #efefef;
 
   font-size: 16px;
 }
@@ -51,7 +51,6 @@ body {
 
   font-size: 18px;
   color: var(--primary-text-color);
-  background-color: "#fffff";
 }
 
 h1,
@@ -70,7 +69,6 @@ a {
 }
 
 textarea {
-  field-sizing: content;
   resize: none;
   font-family: inherit;
 }
