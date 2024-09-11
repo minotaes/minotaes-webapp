@@ -1,0 +1,29 @@
+.login_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0f1f2a;
+    gap: 0.5rem;
+}
+
+.login_form section {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_form input {
+    width: 18rem;
+    background: var(--input-color-bg);
+    border: none;
+    height: 2rem;
+    border-radius: 0.5rem;
+    padding-inline: 0.5rem;
+    font-size: 1rem;
+}
+
+.submit_button {
+    margin-top: 0.7rem;
+}
