@@ -12,6 +12,10 @@
   --secondary-color-00: #0d1821;
   --secondary-color-80: #0f1f2a;
   --secondary-color-60: #132b3a;
+  --tertiary-color-00: #000000;
+  --tertiary-color-80: #1a1a1a;
+  --tertiary-color-60: #333333;
+  --tertiary-color-40: #4d4d4d;
 
   --error-color-tx: #ff4d4f;
   --error-color-bg: #ff4d4f;
@@ -27,6 +31,7 @@
 
   --primary-text-color: var(--primary-color-00);
   --secondary-text-color: var(--secondary-color-00);
+  --tertiary-text-color: var(--tertiary-color-00);
 
   --input-bg: var(--primary-color-60);
 
@@ -50,7 +55,7 @@ body {
   min-height: 100svh;
 
   font-size: 18px;
-  color: var(--primary-text-color);
+  color: var(--tertiary-text-color);
   background-color: "#fffff";
 }
 

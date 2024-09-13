@@ -59,6 +59,14 @@
   color: var(--secondary-text-color);
 }
 
+.color--tertiary {
+  color: var(--tertiary-text-color);
+}
+
+.size--xsmall {
+  font-size: 1.1rem;
+}
+
 .size--small {
   font-size: 1.5rem;
 }
