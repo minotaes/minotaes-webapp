@@ -4,14 +4,18 @@
   --font-mono: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
-  --primary-color-00: #22ae48;
-  --primary-color-80: #22ae84;
-  --primary-color-60: #22ae99;
-  --primary-color-40: #2282ae;
-  --primary-color-20: #2292ae;
+  --primary-color-00: #ffffff;
+  --primary-color-80: #a9a8a8;
+  --primary-color-60: #7a7c7b;
+  --primary-color-40: #4b4b4b;
+  --primary-color-20: #282929;
   --secondary-color-00: #0d1821;
   --secondary-color-80: #0f1f2a;
   --secondary-color-60: #132b3a;
+  --tertiary-color-00: #000000;
+  --tertiary-color-80: #1a1a1a;
+  --tertiary-color-60: #333333;
+  --tertiary-color-40: #4d4d4d;
 
   --error-color-tx: #ff4d4f;
   --error-color-bg: #ff4d4f;
@@ -25,8 +29,9 @@
   --warning-color-00: #c3841d;
   --warning-color-60: #f5a52433;
 
-  --primary-text-color: var(--secondary-color-00);
-  --secondary-text-color: var(--primary-color-00);
+  --primary-text-color: var(--primary-color-00);
+  --secondary-text-color: var(--secondary-color-00);
+  --tertiary-text-color: var(--tertiary-color-00);
 
   --input-bg: var(--primary-color-60);
 
@@ -50,7 +55,7 @@ body {
   min-height: 100svh;
 
   font-size: 18px;
-  color: var(--primary-text-color);
+  color: var(--tertiary-text-color);
   background-color: "#fffff";
 }
 

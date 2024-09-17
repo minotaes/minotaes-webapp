@@ -1,0 +1,41 @@
+.container {
+  margin-top: 1rem;
+  width: full;
+  height: 18rem;
+}
+
+.photo_stack {
+  position: relative;
+  /* Ajusta el tamaño según sea necesario */
+}
+
+.photo_stack img {
+  position: absolute;
+  height: auto;
+  border-radius: 20px;
+  /* Para esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.photo_stack img:nth-child(1) {
+  top: 1rem;
+  left: 0.1rem;
+  width: 50%;
+  height: auto;
+  z-index: 1;
+}
+
+.photo_stack img:nth-child(2) {
+  left: 20%;
+  width: 60%;
+  height: auto;
+  z-index: 3;
+}
+
+.photo_stack img:nth-child(3) {
+  top: 1rem;
+  right: 0.1rem;
+  width: 50%;
+  height: auto;
+  z-index: 2;
+}
